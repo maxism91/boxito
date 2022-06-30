@@ -161,3 +161,12 @@ nav ul li:hover {
         left: 0;
     }
 }
+@media (max-width: 625px){
+    .parrafo1{
+        font-size: 2em;
+    }
+    .parrafo2{
+        font-size: 2em;
+    }
+}
+
