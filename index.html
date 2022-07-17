@@ -11,40 +11,35 @@
     <title>Boxito</title>
 </head>
 <body>
-    <header>
-        <img src="BOXITO-04.png" alt="logo" class="logo">
-        <nav>
-            <ul class="nav-list">
-                <li><a href="#" class="active">INICIO</a></li>
-                <li><a href="#">ACTIVIDADES</a></li>
-                <li><a href="#">CONTACTO</a></li>
-                <li><a href="#">TURNOS</a></li>
-                <li><a href="#">INICIAR SESIÓN</a></li>
-            </ul>   
-        <div class="menu-icono">
-                <input type="checkbox" id="check">
-                <label for="check" class="icono" >
-                  <i class="fa-solid fa-bars"></i>
-                </label>
+    <div class="section-container header-container">
+    <header class="header">
+        <div class="logo-conteiner">
+        <img src="BOXITO-04.png" alt="logo">
         </div>
+        <nav class="navbar">
+            <label for="toggle-menu"><i class="fa-solid fa-bars"></i></label>
+            <input type="checkbox" id="toggle-menu">
+            <ul class="navbar-list">
+                <li><a href="#hero">INICIO</a></li>
+                <li><a href="#about-us">EL BOX</a></li>
+                <li><a href="#activity">ACTIVIDADES</a></li>
+                <li><a href="#contac">CONTACTOS</a></li>
+            </ul>
         </nav>
     </header>
-    <section class="sec-titulo">
-        <h1>BOXITO</h1>
-    </section>
-    <section class="sec2">
-        <div class="parrafo1">
-            <p>TU BOX DE CROSSFIT EN LABOULAYE</p>
-        </div>
-        <div class="parrafo2">
-            <p>Cambia tu estilo de vída y encontrá tu máximo potencial</p>
-        </div>
-    </section>
-    <section class="sec3">
-        <div>
-            <a href="#"><button class="boton">SEMANA GRATIS</button></a>
+    </div>
+        <!-- hero -->
+    <div class="description-container">
+        <section class="section" id="#hero">
+            <div class="text-conteiner">
+                <h1>TU BOXITO</h1>
+                <h2>¡TU BOX DE CROSSFIT EN LABOULAYE!</h2>
+                <p>Cambia tu estilo de vída y encontrá tu máximo potencial</p>
             </div>
-    </section>
+        </section>
+    </div>    
+    
+    
     
 </body>
 </html>
