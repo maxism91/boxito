@@ -37,7 +37,7 @@ body {
 }
 button {
     background-color: #FAB811;
-    border: 0px solid black;
+    border: 2px solid black;
     outline: none;
     width: 180px;
     height: 40px;
@@ -46,6 +46,11 @@ button {
     font-size: 14px;
     cursor: pointer;
     transition: all 0.4s ease-out;
+}
+.login-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 button:hover{
     background-color: #8e690a;
@@ -69,6 +74,7 @@ button:hover{
     display: flex;
     height: 100%;
     align-items: center;
+    flex-wrap: wrap;
 }
 .navbar, .navbar-list {
     display: flex;
@@ -100,7 +106,7 @@ button:hover{
     color: black;
     cursor: pointer;
     display: none;
-    font-family: 'Kanit', sans-serif;
+    font-family: Kanit, sans-serif;
 }
 #toggle-menu {
     display: none;
