@@ -310,4 +310,12 @@ button:hover{
     .section {
         width: 100%;
     }
+    .maps-contac {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
     }
+
+}
