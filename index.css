@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Rubik+Mono+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Rubik+Mono+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Anton&family=Rubik+Mono+One&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -153,6 +154,7 @@ button:hover{
         align-items: center;
         padding: 0%;
     }
+    
 }
 /*  hero  */
 #hero {
@@ -182,7 +184,7 @@ button:hover{
 }
 .text-conteiner h2 {
     font-family: 'Rubik Mono One', sans-serif;
-    font-size: 60px;
+    font-size: 40px;
     margin-top: 80px;
     text-shadow: rgb(255, 103, 1) 5px 0px 5px;
     align-items: center;
@@ -198,12 +200,7 @@ button:hover{
     border-radius: 20px;
     padding: 10px;
 }
-@media (max-width: 565px){
-   h1 {
-    font-size: 30px;
-   }
-    
-}
+
   /* about-us */
   #about-us {
     justify-content: space-around;
@@ -260,7 +257,7 @@ button:hover{
     justify-content: space-around;
     flex-wrap: wrap;
     flex: 1 1 50%;
-    width: 80%;
+    width: 100%;
     align-items: center;
     text-align: center; 
     
@@ -271,7 +268,13 @@ button:hover{
     align-items: center;
     text-align: center;
     align-items: center;
-    text-align: center; 
+    text-align: center;
+    background-image: url(box2.jpeg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: top;
+    text-shadow: rgb(255, 103, 1) 5px 0px 5px;
+    
     
 }
 
@@ -303,3 +306,8 @@ button:hover{
     align-items: center;
     text-align: center; 
 }
+@media (max-width: 565px){
+    .section {
+        width: 100%;
+    }
+    }
