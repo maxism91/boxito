@@ -202,7 +202,7 @@ button:hover{
 }
 
   /* about-us */
-  #about-us {
+#about-us {
     justify-content: space-around;
     flex-wrap: wrap;
     flex: 1 1 50%;
@@ -235,7 +235,6 @@ button:hover{
     gap: 20px;
     padding: 20px;
     grid-auto-flow: dense;
-    
 }
 
 .foto-conteiner {
@@ -317,5 +316,13 @@ button:hover{
         text-align: center;
         flex-wrap: wrap;
     }
+    .galeria-conteiner {
+        
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
 
 }
