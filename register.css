@@ -75,7 +75,9 @@ button:hover{
     text-align: center; 
 }
 h4 a {
-    color: #000000;
+    color: blue;
+    font-size: 20px;
+    text-shadow: rgb(255, 103, 1) 6px 2px 6px;
 }
 @media (max-width: 700px){
     .register-conteiner {

@@ -127,20 +127,23 @@ button:hover{
         position: absolute;
         background-color: black;
         flex-direction: column;
-        top: 100px;
+        top: 80px;
         right: 0;
-        width: 100%;
-        height: calc(100vh - 100px);
+        width: 60%;
+        height: calc(70vh - 100px);
         z-index: 9999;
         display: none;
+        border: 10px solid #FAB811;
+        border-radius: 10px;
+
     }
     .navbar-list li {
-        border: 3px solid white;
+        border: 2px solid white;
         background-color: #ffb805;
         color: #eeede7;
         font-weight: 700;
-        padding: 10px;
-        border-radius: 4px;
+        padding: 5px;
+        border-radius: 2px;
     }
     #toggle-menu:checked + .navbar-list {
         display: flex;
@@ -153,6 +156,13 @@ button:hover{
         flex-wrap: wrap;
         align-items: center;
         padding: 0%;
+    }
+    .navbar-list li:last-child > a {
+        border: none;
+        font: 10px;
+        padding: 8px 15px;
+        border-radius: 4px;
+        transition: all 0.3s linear;
     }
     
 }
@@ -273,9 +283,8 @@ button:hover{
     background-size: cover;
     background-position: top;
     text-shadow: rgb(255, 103, 1) 5px 0px 5px;
-    
-    
 }
+
 
 .contac-conteiner i {
     color: rgb(255, 103, 1);
@@ -284,7 +293,7 @@ button:hover{
     justify-content: space-around;
     align-items: center;
     text-align: center; 
-    
+    width: 50%;
     
 }
 .contac-conteiner i:hover {
@@ -305,7 +314,7 @@ button:hover{
     align-items: center;
     text-align: center; 
 }
-@media (max-width: 565px){
+@media (max-width: 665px){
     .section {
         width: 100%;
     }
@@ -315,14 +324,19 @@ button:hover{
         align-items: center;
         text-align: center;
         flex-wrap: wrap;
-    }
-    .galeria-conteiner {
-        
-        justify-content: space-around;
-        align-items: center;
         width: 100%;
-        flex-wrap: wrap;
     }
-    
+    .foto-conteiner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        gap: 10px;
+        padding: 10px;
+    }
 
+}
+.redes-sociales i {
+    color: #ffb805;
 }
